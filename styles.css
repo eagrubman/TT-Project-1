@@ -11,6 +11,11 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+form {
+  line-height: 5;
+  text-align: center;
+
+}
 /* Link Styles */
 
 a {
@@ -19,6 +24,12 @@ a {
 }
 a:hover {
   color: #6633ff;
+}
+li {
+  list-style-type: none;
+}
+.background {
+  line-height: 4;
 }
 
 /* Section Styles */
@@ -57,7 +68,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/la_skyline.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -99,7 +110,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: slategrey;
 }
 
 ul.skills {
@@ -110,16 +121,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: slategrey;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: navy;
 }
-
 footer {
   width: 100%;
   min-height: 30px;
